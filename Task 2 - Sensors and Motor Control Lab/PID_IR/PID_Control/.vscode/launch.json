@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/alect/OneDrive/Documents/CMU MRSD/Spring 2023/Project Course 1/Familiarization-Tasks-16681A/Task 2 - Sensors and Motor Control Lab/PID_IR/PID_Control",
+      "program": "c:/Users/alect/OneDrive/Documents/CMU MRSD/Spring 2023/Project Course 1/Familiarization-Tasks-16681A/Task 2 - Sensors and Motor Control Lab/PID_IR/PID_Control/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
