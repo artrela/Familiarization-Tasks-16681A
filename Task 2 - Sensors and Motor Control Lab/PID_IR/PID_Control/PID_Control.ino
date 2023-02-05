@@ -2,7 +2,7 @@
 // PID Control for Speed: https://www.youtube.com/watch?v=HRaZLCBFVDE
 
 // are we targeting pos/vel
-int target_mode =  1; // 0 for position, 1 for velocity
+int target_mode =  0; // 0 for position, 1 for velocity
 // what is the value we are targeting
 int des = 60;
 // init prev time
@@ -63,7 +63,7 @@ void setup()
   pinMode(Pins::encA, INPUT);
   pinMode(Pins::encB, INPUT);
   pinMode(Pins::driverPin1, OUTPUT);
-  pinMode(Pins::driverPin1, OUTPUT);
+  pinMode(Pins::driverPin2, OUTPUT);
 
   // create an interrupt, used for reading the encoder as the hall sensor
   // triggers outputs
