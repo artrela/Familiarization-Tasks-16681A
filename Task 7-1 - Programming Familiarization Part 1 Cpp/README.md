@@ -1,8 +1,10 @@
 # Task 7.1:  Programming Familiarization Part 1 - C++
 <br>
 
+![video-game](https://github.com/artrela/Familiarization-Tasks-16681A/blob/master/Task%207-1%20-%20Programming%20Familiarization%20Part%201%20Cpp/output_example.gif)
+
 *Purpose: To give you practical experience in writing and debugging actual C++ applications and give you
-more practice at memory in C++* 
+more practice at memory in C++ ~ instituted a controller on a pre-existing glfw based video game (see above* 
 
 <hr>
 
